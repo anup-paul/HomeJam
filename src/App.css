@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+/* /........Herder.........../ */
+
+.header-container{
+
+    background: url(././images/banner.png)no-repeat center center ;
+    height: 790px;
+    background-size:cover;
+    margin-top: -4.5rem;
+}
+
+
+.infoBackGround{
+    background-color: rgb(9, 2, 24);
+
+}
+.card-design{
+    
+    box-shadow: 11px -10px 0px -2px rgba(63, 49, 146, 0.25);
+    border-radius: 8px; 
+}
+.review-card-design{
+    box-shadow: 11px -10px 0px -2px rgba(45, 126, 158, 0.25);
+    border-radius: 8px; 
+}
+.after__border{
+    position: relative; 
+ }
+ .after__border:after{
+     position: absolute;
+     content: '';
+     background-color: #0c1eac;
+     width: 50px;
+     height: 5px;
+     top: 45px;
+     left: 0;
+     border-radius: 6px;
+ 
+ }
